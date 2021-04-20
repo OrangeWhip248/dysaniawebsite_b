@@ -167,3 +167,8 @@ body, html {
 }
 /*
 */
+
+hr { 
+  color: #111111!important;
+  border-color: #111111!important;
+}
