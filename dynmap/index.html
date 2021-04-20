@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>DysaniaMC | Dynmap</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="/icon.png">
+        <link rel="stylesheet" href="/style.css">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3d4104ca7b.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://rawcdn.githack.com/BCJdevelopment/butter.js/7524055637ead424acd4713efed5488fb66e4dc3/src/butter.js"></script>
+    </head>
+    <body onload="loadScripts()">
+        <div class="headcontainer">
+            <div class="headcontent">
+                <div class="headtitle">
+                    <img src="/dysania.png" style="max-width:60%; max-height:80%; object-fit: cover; padding:1rem;" id="dysanialogo"/>
+                </div>
+                <div class="nav">
+                    <a href="/" class="navitem">Home</a>
+                    <a href="/rules/" class="navitem">Server Rules</a>
+                    <a href="/discord/" class="navitem">Discord</a>
+                    <a href="/changelog/" class="navitem">Changelog</a>
+                    <a href="/gallery/" class="navitem">Gallery</a>
+                    <a href="/staff/" class="navitem">Staff</a>
+                    <a href="/technical-info/" class="navitem">Technical Info</a>
+                    <a href="/dynmap/" class="navitem active">Dynmap</a>
+                </div>
+            </div>
+        </div>
+        <div id="butter">
+            <div class="bodycontainer">
+                <div class="bodycontentouter">
+                    <div class="bodycontent">
+                        <hr class="solid" style="color: #111111;">
+                        <div class="section title"><i>Dynmap</i></div>
+                        <hr class="solid" style="color: #111111;">
+                        <span style="width:100%; display:flex; align-items:center; justify-content:center;"><iframe src="https://dysaniamc.com/dynmap/web/" style="width:95%; height:50vh; border-radius:10px" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-same-origin allow-scripts"></iframe></span>
+                        <div class="section sbody">
+                            <a href="https://dysaniamc.com/dynmap/web/" style="text-decoration: none;" class="navitem" target="_blank">Full Page Ver.</a>
+                        </div>
+                        <div style="height: 300px;"></div> <!-- DO NOT DELETE -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function loadScripts() {
+                AOS.init();
+                butter.init({
+                    wrapperId: 'butter'
+                });
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
